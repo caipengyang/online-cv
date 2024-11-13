@@ -114,8 +114,24 @@ education:
 experiences:
     title: Experiences
     info:
+      - role: Director of Engineering 
+        time: Apr 2024 - Now
+        company: Coupang
+        details: |
+          As the director of pricing engineering team, I'm collaborating with other teams include **Science**, **Analytics**, **Product** to assure the sharpness goal of our retail
+          business. We are developing the pricing intelligence solutions to guarantee our price competitiveness among competitors in South Korea. We developed the automapping system
+          and introduced different intelligent strategies to improve the business performance, such as SBC(search based crawling), VBS(vector based search) sparse retrieval and graph driven
+          retrieval. 
+            
+          Meaning while, we also finished the legacy systems deprecation successfully within 3 months and resolved the tech debts which last for more than 5 years. Now
+          the whole team is focusing on improving the intelligence, scalability of the whole system from end to end leaveraing AI technologies include traditional AI technologies like NLP, CV as
+          well as LLM and LVLM. 
+
+          > **Highlights**
+            - Resolved 5 year tech debs within my first two quarters
+
       - role: Manager
-        time: Oct 2019 - Present
+        time: Oct 2019 - Apr 2024
         company: SEA(Garena Online Private LTD), Singapore
         details: |
           As the manager of the intelligence engineering team(110+ members), I built the whole team from zero. The team
