@@ -129,27 +129,28 @@ experiences:
           retrieval. 
             
           Meanwhile, we also finished the legacy systems deprecation successfully within 3 months and resolved the tech debts which last for more than 5 years. Now
-          the whole team is focusing on improving the intelligence, scalability of the whole system from end to end leveraging AI technologies includding traditional AI technologies like NLP, CV as
+          the whole team is focusing on improving the intelligence, scalability of the whole system from end to end leveraging AI technologies including traditional AI technologies like NLP, CV as
           well as LLM and LVLM. 
 
           > **Highlights**
-            - Resolved 5 years' tech debts within my first two quarters
-            `Our legacy system was built 5+ years ago and was not maintained well. It was using outdated big data solutions and the performance was not good. And the solution also can't scale as 
-            busines grows. Due to too many contributors and too many business requirements, the codebase was a mess and it makes the system hard to maintain and supporting any new feature was a nightmare.
-            I led the team to redesign the system and rebuild the core components. We learned from the search & recommendation system architecture and come up with near realtime backend system solution and 
+
+            - Resolved 5 - year tech debts within my first two quarters
+            `Our legacy system was built 5+ years ago and was not maintained well. It was using outdated big data solutions and the performance was not good. And the solution also couldn't scale as 
+            business grows. Due to too many contributors and too many business requirements, the codebase was a mess and it makes the system hard to maintain and supporting any new feature was a nightmare.
+            I led the team to redesign the system and rebuild the core components. We learned from the search & recommendation system architecture and came up with near realtime backend system solution and 
             eventually we built a high performance, scalable, and maintainable system. The throughput of the system was improved by 3X and the cost dropped by 85%. 
-            And supporing new features was much easier than before.`
+            And supporting new features was much easier than before and the architecture design, module relation, service framework as well as coding style is well defined.`
 
       - role: Manager
         time: Oct 2019 - Apr 2024
         company: SEA(Garena Online Private LTD), Singapore
         details: |
           As the manager of the intelligence engineering team(110+ members), I built the whole team from zero. The team
-          including **backend developers**, **frontend developers**, **App developers** and **QA**. 
+          includes **backend developers**, **frontend developers**, **App developers** and **QA**. 
           Our team is supporting all the products of Shopee as well as some other products of the SEA group.
           The features include 
             - Promotion Item Search
-            - Recommendation(include item, voucher, banner, brands...)
+            - Recommendation(including item, voucher, banner, brands...)
             - User Tag Intelligence
             - Computer Vision
             - Listing Intelligence
@@ -157,11 +158,11 @@ experiences:
             - Audio intelligence
             - Identify verification(KYC)
 
-          and so on.  We are supporting business lines include **Promotion**, **User**, **Marketing**, **Order**, **Listing**, **Seller**... We are 
+          and so on.  We are supporting business lines including **Promotion**, **User**, **Marketing**, **Order**, **Listing**, **Seller**... We are 
           improving the core indicators of the e-commerce platform and the iteration efficiency of both business projects
           and technical projects.
 
-          We also developed our in-house AI infrastructors from zero. Include
+          We also developed our in-house AI infrastructor from zero, such as:
             - vector retrieval engine (based on Faiss, ScaNN, and redis Search)
             - inference framework(based on Nvidia triton)
             - feature KV middleware(kvRocks)
@@ -172,7 +173,7 @@ experiences:
 
           Before this, I was leading the common shared service team to build middlewares and frameworks for the whole company. We built the
           common middlewares for the company including
-            - go service framework (it is the only backend service framework that supporting the core marketplace systems including user, item, order, messaging...)
+            - go service framework (it is the only backend service framework that supports the core marketplace systems including user, item, order, messaging...)
             - smq (a golang message queue library, has 1000+ users in the company)
             - gorm & gdbc (a inouse golang ORM library and a golang database connection pool library)
             - ha-memcache (a high availability memcache client library)
@@ -180,7 +181,7 @@ experiences:
             - proxy server (long-connection tcp proxy server between shopee users and shopee backend services)
             - ...
           All these middlewares are initiated by my team and released & iterated with amazing efficiency, performance and stability. It was widely used in the company and successfully supported the 
-          Shopee business growth from 2019 to 2024. Our solution are one of the major contirbutors improving shopee service SLA as well as supporting the big promotion events like 11.11, 12.12, 9.9, and so on.
+          Shopee business growth from 2019 to 2024. Our solution are one of the major contributors improving shopee service SLA as well as supporting the big promotion events like 11.11, 12.12, 9.9, and so on.
 
           > **Highlights**
             - 2023 Performance: A-(Partial Outstanding)
@@ -250,7 +251,7 @@ experiences:
         details: |
           I was responsible for the development and maintenance work for QQ Mail. I collaborated with my teammates and developed 
           several new features including batch operating(Select, Delete...), Star Mail, Mail Tags, Important
-          mail, Mail Calendar & Events, Ads email aggregation, and so on. I also developed the email thumbnail cache service and 
+          Mail, Mail Calendar & Events, Ads email aggregation, and so on. I also developed the email thumbnail cache service and 
           it was used in the email preview. I also developed several features for the early versions of WeChat like "Add to favorites".
 
           > **Highlights**
