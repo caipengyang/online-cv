@@ -134,6 +134,11 @@ experiences:
 
           > **Highlights**
             - Resolved 5 years' tech debts within my first two quarters
+            `Our legacy system was built 5+ years ago and was not maintained well. It was using outdated big data solutions and the performance was not good. And the solution also can't scale as 
+            busines grows. Due to too many contributors and too many business requirements, the codebase was a mess and it makes the system hard to maintain and supporting any new feature was a nightmare.
+            I led the team to redesign the system and rebuild the core components. We learned from the search & recommendation system architecture and come up with near realtime backend system solution and 
+            eventually we built a high performance, scalable, and maintainable system. The throughput of the system was improved by 3X and the cost dropped by 85%. 
+            And supporing new features was much easier than before.`
 
       - role: Manager
         time: Oct 2019 - Apr 2024
@@ -164,6 +169,18 @@ experiences:
             
           We also built our own AI API gateway to manage all our team's AI services, including ACL, tenant quota management, sync & async protocol support, and 3rd party AI services(like ChatGPT, Google Translation...)
           management for the company.
+
+          Before this, I was leading the common shared service team to build middlewares and frameworks for the whole company. We built the
+          common middlewares for the company including
+            - go service framework (it is the only backend service framework that supporting the core marketplace systems including user, item, order, messaging...)
+            - smq (a golang message queue library, has 1000+ users in the company)
+            - gorm & gdbc (a inouse golang ORM library and a golang database connection pool library)
+            - ha-memcache (a high availability memcache client library)
+            - ssp (high performance and 10B records level query middleware)
+            - proxy server (long-connection tcp proxy server between shopee users and shopee backend services)
+            - ...
+          All these middlewares are initiated by my team and released & iterated with amazing efficiency, performance and stability. It was widely used in the company and successfully supported the 
+          Shopee business growth from 2019 to 2024. Our solution are one of the major contirbutors improving shopee service SLA as well as supporting the big promotion events like 11.11, 12.12, 9.9, and so on.
 
           > **Highlights**
             - 2023 Performance: A-(Partial Outstanding)
