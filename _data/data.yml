@@ -136,10 +136,10 @@ experiences:
 
             - Resolved 5 - year tech debts within my first two quarters
             `Our legacy system was built 5+ years ago and was not maintained well. It was using outdated big data solutions and the performance was not good. And the solution also couldn't scale as 
-            business grows. Due to too many contributors and too many business requirements, the codebase was a mess and it makes the system hard to maintain and supporting any new feature was a nightmare.
-            I led the team to redesign the system and rebuild the core components. We learned from the search & recommendation system architecture and came up with near realtime backend system solution and 
+            business grew. Due to too many contributors and too many business requirements, the codebase was a mess and it made the system hard to maintain and supporting any new feature was a nightmare.
+            I led the team to redesign the system and rebuild the core components. We learned from the search & recommendation system architecture and came up with near real-time backend system solution and 
             eventually we built a high performance, scalable, and maintainable system. The throughput of the system was improved by 3X and the cost dropped by 85%. 
-            And supporting new features was much easier than before and the architecture design, module relation, service framework as well as coding style is well defined.`
+            And supporting new features was much easier than before. The architecture design, module relation, service framework, and coding style were well defined.`
 
       - role: Manager
         time: Oct 2019 - Apr 2024
@@ -162,7 +162,7 @@ experiences:
           improving the core indicators of the e-commerce platform and the iteration efficiency of both business projects
           and technical projects.
 
-          We also developed our in-house AI infrastructor from zero, such as:
+          We also developed our in-house AI infrastructure from zero, such as:
             - vector retrieval engine (based on Faiss, ScaNN, and redis Search)
             - inference framework(based on Nvidia triton)
             - feature KV middleware(kvRocks)
@@ -175,13 +175,13 @@ experiences:
           common middlewares for the company including
             - go service framework (it is the only backend service framework that supports the core marketplace systems including user, item, order, messaging...)
             - smq (a golang message queue library, has 1000+ users in the company)
-            - gorm & gdbc (a inouse golang ORM library and a golang database connection pool library)
+            - gorm & gdbc (a in-house golang ORM library and a golang database connection pool library)
             - ha-memcache (a high availability memcache client library)
             - ssp (high performance and 10B records level query middleware)
             - proxy server (long-connection tcp proxy server between shopee users and shopee backend services)
             - ...
           All these middlewares are initiated by my team and released & iterated with amazing efficiency, performance and stability. It was widely used in the company and successfully supported the 
-          Shopee business growth from 2019 to 2024. Our solution are one of the major contributors improving shopee service SLA as well as supporting the big promotion events like 11.11, 12.12, 9.9, and so on.
+          Shopee business growth from 2019 to 2024. Our solutions are one of the major contributors improving Shopee service SLA as well as supporting the big promotion events like 11.11, 12.12, 9.9, and so on.
 
           > **Highlights**
             - 2023 Performance: A-(Partial Outstanding)
@@ -235,7 +235,7 @@ experiences:
         time: Feb 2014 - Apr 2015
         company: Netease, Guangzhou
         details: |
-          I am one of the core developers to develop the 1st 3d action mobile game in Netease. We used our self-developed 3d game engine to develop the core action
+          I was one of the core developers to develop the 1st 3d action mobile game in Netease. We used our self-developed 3d game engine to develop the core action
           systems and also used scaleform(flash) as the game UI engine. And later we also introduced Cocos2d-X to support the 2d components and UI features. 
           I finished several sub-systems of the game including account, package(bag), sprite(pet), equipment, skill, and so on. 
           I also developed several auxiliary tools to help our teammates do real-time updates for the properties of 
